@@ -3,7 +3,7 @@ import mushroomImg from "../assets/champignons2.webp";
 function Articles() {
   return (
     <section>
-      <article>
+      <article className="sticky">
         <h2>Origines et Variétés</h2>
         <p>
           Les champignons sautés ont une histoire culinaire riche, remontant à
@@ -13,7 +13,7 @@ function Articles() {
           champignons de Paris, les portobellos et les pleurotes.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Valeurs Nutritionnelles</h2>
         <p>
           Les champignons sont faibles en calories mais riches en nutriments
@@ -23,7 +23,7 @@ function Articles() {
           clé dans le maintien de la santé immunitaire et antioxydante.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Préparation et Astuces</h2>
         <p>
           Avant de sauter les champignons, il est crucial de les nettoyer
@@ -38,7 +38,7 @@ function Articles() {
           champignons une belle texture dorée.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Recette : Champignons Sautés, Ail et Persil</h2>
         <p>Ingrédients:</p>
         <ul>
@@ -71,7 +71,7 @@ function Articles() {
           </li>
         </ol>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Conseils d'Accompagnement</h2>
         <p>
           Les champignons sautés peuvent être accompagnés de nombreux plats. Ils
@@ -81,7 +81,7 @@ function Articles() {
           pour un apéritif simple et élégant.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Variations</h2>
         <p>
           Pour varier, vous pouvez ajouter d'autres herbes comme le thym ou le
@@ -90,7 +90,7 @@ function Articles() {
           la crème fraîche en fin de cuisson.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Conservation</h2>
         <p>
           Les champignons sautés se conservent bien au réfrigérateur pendant
@@ -99,7 +99,7 @@ function Articles() {
           décongélation.
         </p>
       </article>
-      <article>
+      <article className="sticky">
         <h2>Conclusion</h2>
         <p>
           Les champignons sautés sont un délice simple mais élégant, qui peut
@@ -110,9 +110,11 @@ function Articles() {
           toujours un choix gagnant. Bon appétit!
         </p>
       </article>
-      <article>
-        <img src={mushroomImg} alt="un plat de champignons cuisinés" />
-      </article>
+      <img
+        src={mushroomImg}
+        alt="un plat de champignons cuisinés"
+        className="sticky"
+      />
     </section>
   );
 }

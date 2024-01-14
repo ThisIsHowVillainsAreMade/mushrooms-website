@@ -32,6 +32,7 @@ p {
   display: flex;
   justify-content: center;
   animation: shadowanimation infinite 5s;
+  color: white;
 }
 .textCenter {
   display: flex;
@@ -46,4 +47,10 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+p {
+  color: var(--secondElementColor);
+}
+.champitext {
+  color: var(--mainElementColor);
 }

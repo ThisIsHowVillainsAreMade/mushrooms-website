@@ -2,16 +2,26 @@ section {
   margin: 0 10%;
   h2 {
     font-size: 2rem;
+    color: var(--mainElementColor);
   }
   p {
     font-size: 1rem;
   }
   article {
     text-align: center;
-    position: sticky;
     top: 50px;
     border: 1px solid var(--mainElementColor);
     background-color: #242424;
     padding: 5%;
+    ul,
+    ol {
+      text-align: justify;
+    }
+  }
+  .sticky {
+    position: sticky;
+  }
+  img {
+    width: 100%;
   }
 }
