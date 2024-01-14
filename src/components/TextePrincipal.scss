@@ -1,0 +1,49 @@
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--mainElementColor);
+  height: 20svh;
+  border: 1px solid var(--thirdElementColor);
+  text-shadow: var(--thirdElementColor) 1px 0 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@keyframes shadowanimation {
+  0% {
+    text-shadow: var(--secondElementColor) 1px 0 10px;
+  }
+  50% {
+    text-shadow: var(--secondElementColor) 10px 0 100px;
+  }
+  100% {
+    text-shadow: var(--secondElementColor) 1px 0 10px;
+  }
+}
+
+.enjoy {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  animation: shadowanimation infinite 5s;
+}
+.textCenter {
+  display: flex;
+  margin: 0 10%;
+}
+
+.mushroomBackground {
+  border: solid 1px transparent;
+  height: 20svh;
+  width: 100%;
+  background-image: url("../assets/Champignons.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
