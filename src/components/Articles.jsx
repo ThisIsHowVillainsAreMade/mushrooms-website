@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import mushroomImg from "../assets/champignons2.webp";
+import mushroomImg from "../assets/titre8champis.webp";
 function Articles() {
   return (
     <section>
       <article className="sticky">
+        <div className="originesEtVarietesImg"></div>
         <h2>Origines et Variétés</h2>
         <p>
           Les champignons sautés ont une histoire culinaire riche, remontant à
@@ -14,6 +15,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="valeursNutritionnellesImg"></div>
         <h2>Valeurs Nutritionnelles</h2>
         <p>
           Les champignons sont faibles en calories mais riches en nutriments
@@ -24,6 +26,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="preparationEtAstucesImg"></div>
         <h2>Préparation et Astuces</h2>
         <p>
           Avant de sauter les champignons, il est crucial de les nettoyer
@@ -39,6 +42,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="recetteImg"></div>
         <h2>Recette : Champignons Sautés, Ail et Persil</h2>
         <p>Ingrédients:</p>
         <ul>
@@ -72,6 +76,7 @@ function Articles() {
         </ol>
       </article>
       <article className="sticky">
+        <div className="conseilleAccompagnementImg"></div>
         <h2>Conseils d'Accompagnement</h2>
         <p>
           Les champignons sautés peuvent être accompagnés de nombreux plats. Ils
@@ -82,6 +87,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="variationsImg"></div>
         <h2>Variations</h2>
         <p>
           Pour varier, vous pouvez ajouter d'autres herbes comme le thym ou le
@@ -91,6 +97,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="conservationImg"></div>
         <h2>Conservation</h2>
         <p>
           Les champignons sautés se conservent bien au réfrigérateur pendant
@@ -100,6 +107,7 @@ function Articles() {
         </p>
       </article>
       <article className="sticky">
+        <div className="conclusionImg"></div>
         <h2>Conclusion</h2>
         <p>
           Les champignons sautés sont un délice simple mais élégant, qui peut

@@ -10,13 +10,26 @@ section {
   article {
     text-align: center;
     top: 50px;
-    border: 1px solid var(--mainElementColor);
+    // border: 1px solid var(--mainElementColor);
     background-color: #242424;
-    padding: 5%;
+    padding: 0 0% 10% 0;
+    transition: filter 0.5s ease-in-out;
+    p {
+      padding: 0 5%;
+    }
     ul,
     ol {
       text-align: justify;
     }
+    div {
+      border: 1px solid transparent;
+      height: 20svh;
+      background-attachment: fixed;
+      width: 100%;
+    }
+  }
+  article:hover {
+    filter: brightness(1.2);
   }
   .sticky {
     position: sticky;
@@ -24,4 +37,36 @@ section {
   img {
     width: 100%;
   }
+}
+
+.originesEtVarietesImg {
+  background-image: url("../assets/champititre1.webp");
+}
+
+.valeursNutritionnellesImg {
+  background-image: url("../assets/titrechampi2.webp");
+}
+
+.preparationEtAstucesImg {
+  background-image: url("../assets/titre3champis.webp");
+}
+
+.recetteImg {
+  background-image: url("../assets/champignonstitre4.webp");
+}
+
+.conseilleAccompagnementImg {
+  background-image: url("../assets/titre5champis.webp");
+}
+
+.variationsImg {
+  background-image: url("../assets/titres6champis.webp");
+}
+
+.conservationImg {
+  background-image: url("../assets/titre7champis.webp");
+}
+
+.conclusionImg {
+  background-image: url("../assets/champignons2.webp");
 }

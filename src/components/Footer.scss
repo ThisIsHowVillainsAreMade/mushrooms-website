@@ -2,6 +2,10 @@
   background-color: var(--mainElementColor);
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 10%;
   margin: 0 10%;
+  p {
+    padding: 0% 5%;
+  }
 }
